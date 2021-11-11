@@ -1,1 +1,19 @@
-,link rel="stylesheet" href="
+.section {
+    background-color: lemonchiffon;
+}
+
+.headers {
+    color: darkblue;
+}
+
+#email {
+    background-color: goldenrod;
+}
+
+#github {
+    background-color: lightsteelblue
+}
+
+#portfolio {
+    background-color: darkorange;
+}
