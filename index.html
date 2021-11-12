@@ -13,7 +13,9 @@
                 color: #39a6b2;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            h1 {font-size: 100px}
+            h1 {
+                font-size: 100px;
+            }
             header {
                 padding: 20px 35px;
                 background-color: #39a6b2;
@@ -41,6 +43,8 @@
                 font-weight: lighter;
                 font-size: 22px;
             }
+
+            
         </style> 
     </head>
     <body> 
@@ -66,16 +70,72 @@
         </ul>
          </nav>
         </header>
+        <Section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our traineres will schedule a consult</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                <p> 
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="traner-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</lebel>
+                    <input type="radio" name="traner-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</lebel>
+                </p>
+                <p>
+                    <label for="checkbox" >
+                        I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confir" id="checkbox" />
+                </p>
+                <button type="submit" >
+                    Get running!
+                </button>
+            </form>
+            </div>
+        </Section>
         <!-- hero/jumbotron -->
         <section>
         </section>
         <!-- "what we do" section -->
-        <section>
+        <section id="what-we-do" class="intro">
             <h2>What We Do</h2>
+            <p>
+                butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+            </p>
         </section>
         <!-- "what you do" section -->
-        <Section>
+        <Section id="what-you-do">
             <h2>What You Do</h2>
+            <div>
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You are already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-2.svg" alt="" />
+               <h3>Step 2: Consult with One of Our Trainers</h3>
+               <p>Are you here to build muscle, lose weight, or just feel good</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-3.svg" alt="" />
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-4.svg" alt="" />
+                <h3>Step 4: See Results</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
         </Section>
         <!-- "meet the trainers" section -->
         <Section>
@@ -88,6 +148,36 @@
         <!-- footer -->
         <footer>
             <h2>❤️ Made with love by Run Buddy. </h2>
+            <style>
+                * { 
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+            footer {
+                background: #fce138;
+                width: 100%;
+                padding: 40px 35px;
+            }
+              Footer h2 {
+                  display: inline;
+                  color: #024e76;
+                  font-size: 30px;
+                  margin: 0;
+              }
+              footer div {
+                  float: right;
+                  line-height: 1.5;
+                  text-align: right;
+              }
+              footer a {
+                  color: #024e76;
+              }
+            </style>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+              </div>
         </footer>
     </body>
     </html>
